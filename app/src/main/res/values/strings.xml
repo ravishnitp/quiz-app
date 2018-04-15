@@ -1,12 +1,19 @@
 <resources>
     <string name="app_name">AndroidQuiz</string>
     <!--Basic level questions -->
+    <string name="bq1">What method you should override to use Android menu system ?</string>
+    <string name="bq2">What Activity method you use to retrieve a reference to an Android view by using the id attribute of a resource XML ?</string>
+    <string name="bq3">Which of the following is not an Android component (i.e. a point from which the system can enter your application)?</string>
+    <string name="bq4">During an Activity life-cycle, what is the first callback method invoked by the system ?</string>
+    <string name="bq5">Which configuration file holds the permission to use the internet?</string>
+    <string name="bq6">What is the name of the folder that contains the R.java file ?</string>
+    <string name="bq7">What is the parent class of all Activity widgets ?</string>
+    <string name="bq8">Which file specifies the minimum required Android SDK version your application supports ?</string>
+    <string name="bq9">Which is not included in the Android application framework ?</string>
+    <string name="bq10">Which of the following is a Java call-back method invoked when a view is clicked?</string>
 
 
-    <!--medium level questions -->
 
-
-    <!--hard level questions -->
 
 
 </resources>
