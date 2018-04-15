@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1DE9B6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--Question no 1 -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp">
+            <!--question number -->
+            <TextView
+                android:id="@+id/Iq1num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="Q1 "
+                android:textAppearance="?android:textAppearanceMedium" />
+            <!--question content -->
+            <TextView
+                android:id="@+id/Iq1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/Iq1num"
+                android:text="Which method name is used to close an activity ?"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <!--answer record-->
+            <EditText
+                android:id="@+id/Iq1Ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Iq1"
+                android:layout_marginTop="2.5dp"
+                android:layout_toRightOf="@id/Iq1num"
+                android:hint="Answer Q1"
+                android:inputType="textCapCharacters" />
+
+
+        </RelativeLayout>
+
+        <!--Question no 2 -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <!--question number -->
+            <TextView
+                android:id="@+id/Iq2num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="Q2 "
+                android:textAppearance="?android:textAppearanceMedium" />
+            <!--question content -->
+            <TextView
+                android:id="@+id/Iq2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/Iq2num"
+                android:text="Which creates certificates for signing Android applications ?"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <!--answer record-->
+            <EditText
+                android:id="@+id/Iq2Ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Iq2"
+                android:layout_marginTop="2.5dp"
+                android:layout_toRightOf="@id/Iq2num"
+                android:hint="Answer Q2"
+                android:inputType="textCapCharacters" />
+
+
+        </RelativeLayout>
+
+        <!--Question no 3 -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <!--question number -->
+            <TextView
+                android:id="@+id/Iq3num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="Q3 "
+                android:textAppearance="?android:textAppearanceMedium" />
+            <!--question content -->
+            <TextView
+                android:id="@+id/Iq3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/Iq3num"
+                android:text="FULL FORM OF API "
+                android:textAppearance="?android:textAppearanceMedium" />
+            <!--answer record-->
+            <EditText
+                android:id="@+id/Iq3Ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Iq3"
+                android:layout_marginTop="2.5dp"
+                android:layout_toRightOf="@id/Iq3num"
+                android:hint="Answer Q3"
+                android:inputType="textCapCharacters" />
+
+
+        </RelativeLayout>
+
+        <!--Question no 4 -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <!--question number -->
+            <TextView
+                android:id="@+id/Iq4num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="Q4 "
+                android:textAppearance="?android:textAppearanceMedium" />
+            <!--question content -->
+            <TextView
+                android:id="@+id/Iq4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/Iq4num"
+                android:text="Which manifest file permission you should add to allow your application to read the device’s address book ?"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <!--answer record-->
+            <EditText
+                android:id="@+id/Iq4Ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Iq4"
+                android:layout_marginTop="2.5dp"
+                android:layout_toRightOf="@id/Iq4num"
+                android:hint="Answer Q4"
+                android:inputType="textCapCharacters" />
+
+
+        </RelativeLayout>
+
+        <!--Question no 5-->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <!--question number -->
+            <TextView
+                android:id="@+id/Iq5num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="Q5 "
+                android:textAppearance="?android:textAppearanceMedium" />
+            <!--question content -->
+            <TextView
+                android:id="@+id/Iq5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/Iq5num"
+                android:text="You can create a custom view by extending class"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <!--answer record-->
+            <EditText
+                android:id="@+id/Iq5Ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Iq5"
+                android:layout_marginTop="2.5dp"
+                android:layout_toRightOf="@id/Iq5num"
+                android:hint="Answer Q5"
+                android:inputType="textCapCharacters" />
+
+
+        </RelativeLayout>
+
+        <!--Question no 6 -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <!--question number -->
+            <TextView
+                android:id="@+id/Iq6num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="Q6 "
+                android:textAppearance="?android:textAppearanceMedium" />
+            <!--question content -->
+            <TextView
+                android:id="@+id/Iq6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/Iq6num"
+                android:text="FULL FORM OF ADB "
+                android:textAppearance="?android:textAppearanceMedium" />
+            <!--answer record-->
+            <EditText
+                android:id="@+id/Iq6Ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Iq6"
+                android:layout_marginTop="2.5dp"
+                android:layout_toRightOf="@id/Iq6num"
+                android:hint="Answer Q6"
+                android:inputType="textCapCharacters" />
+
+
+        </RelativeLayout>
+
+        <!--Question no 7 -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <!--question number -->
+            <TextView
+                android:id="@+id/Iq7num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="Q7 "
+                android:textAppearance="?android:textAppearanceMedium" />
+            <!--question content -->
+            <TextView
+                android:id="@+id/Iq7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/Iq7num"
+                android:text="Which of the following methods is called in an Activity when another activity gets into the foreground?"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <!--answer record-->
+            <EditText
+                android:id="@+id/Iq7Ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Iq7"
+                android:layout_marginTop="2.5dp"
+                android:layout_toRightOf="@id/Iq7num"
+                android:hint="Answer Q7"
+                android:inputType="textCapCharacters" />
+
+
+        </RelativeLayout>
+
+        <!--Question no 8 -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <!--question number -->
+            <TextView
+                android:id="@+id/Iq8num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="Q8 "
+                android:textAppearance="?android:textAppearanceMedium" />
+            <!--question content -->
+            <TextView
+                android:id="@+id/Iq8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/Iq8num"
+                android:text="Which of the following Android View sub-classes uses the WebKit rendering engine to display web pages?"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <!--answer record-->
+            <EditText
+                android:id="@+id/Iq8Ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Iq8"
+                android:layout_marginTop="2.5dp"
+                android:layout_toRightOf="@id/Iq8num"
+                android:hint="Answer Q8"
+                android:inputType="textCapCharacters" />
+
+
+        </RelativeLayout>
+
+        <!--Question no 9 -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <!--question number -->
+            <TextView
+                android:id="@+id/Iq9num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="Q9 "
+                android:textAppearance="?android:textAppearanceMedium" />
+            <!--question content -->
+            <TextView
+                android:id="@+id/Iq9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/Iq9num"
+                android:text="Full form of  GCM in android"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <!--answer record-->
+            <EditText
+                android:id="@+id/Iq9Ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Iq9"
+                android:layout_marginTop="2.5dp"
+                android:layout_toRightOf="@id/Iq9num"
+                android:hint="Answer Q9"
+                android:inputType="textCapCharacters" />
+
+
+        </RelativeLayout>
+
+        <!--Question no 10 -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <!--question number -->
+            <TextView
+                android:id="@+id/Iq10num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="Q10 "
+                android:textAppearance="?android:textAppearanceMedium" />
+            <!--question content -->
+            <TextView
+                android:id="@+id/Iq10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/Iq10num"
+                android:text="Full form Of SDK"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <!--answer record-->
+            <EditText
+                android:id="@+id/Iq10Ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Iq10"
+                android:layout_marginTop="2.5dp"
+
+                android:layout_toRightOf="@id/Iq10num"
+                android:hint="Answer Q10"
+                android:inputType="textCapCharacters" />
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/submit_level2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Submit" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40C4FF">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- question no 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/q1num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Q1 " />
+
+                <TextView
+                    android:id="@+id/q1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/q1num"
+                    android:text="What method you should override to use Android menu system ?" />
+            </RelativeLayout>
+
+            <RadioGroup
+                android:id="@+id/basics_Q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 >
+
+
+                <RadioButton
+                    android:id="@+id/basics_Q1A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="onCreateOptionsMenu()" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q1B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="onCreateMenu()" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q1C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="onMenuCreated()" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q1D"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="onCreateContextMenu()" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/holo_red_dark">
+                /</View>
+        </LinearLayout>
+
+        <!-- question no 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/q2num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Q2 " />
+
+                <TextView
+                    android:id="@+id/q2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/q2num"
+                    android:text="What Activity method you use to retrieve a reference to an Android view by using the id attribute of a resource XML ?" />
+            </RelativeLayout>
+
+            <RadioGroup
+                android:id="@+id/basics_Q2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 >
+
+
+                <RadioButton
+                    android:id="@+id/basics_Q2A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="findViewByReference(int id);" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q2B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="findViewById(int id)" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q2C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="retrieveResourceById(int id)" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q2D"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="findViewById(String id)" />
+            </RadioGroup>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/holo_red_dark">
+                /</View>
+        </LinearLayout>
+
+        <!-- question no 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/q3num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Q3 " />
+
+                <TextView
+                    android:id="@+id/q3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/q3num"
+                    android:text="Which of the following is not an Android component (i.e. a point from which the system can enter your application)?" />
+            </RelativeLayout>
+
+            <RadioGroup
+                android:id="@+id/basics_Q3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 >
+
+
+                <RadioButton
+                    android:id="@+id/basics_Q3A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="Service" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q3B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="Activity" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q3C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="Layout" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q3D"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="Content Provider" />
+            </RadioGroup>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/holo_red_dark">
+                /</View>
+        </LinearLayout>
+
+        <!-- question no 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/q4num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Q4 " />
+
+                <TextView
+                    android:id="@+id/q4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/q4num"
+                    android:text="During an Activity life-cycle, what is the first callback method invoked by the system ?" />
+            </RelativeLayout>
+
+            <RadioGroup
+                android:id="@+id/basics_Q4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 >
+
+
+                <RadioButton
+                    android:id="@+id/basics_Q4A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="onStop()" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q4B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="onStart()" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q4C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="onCreate()" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q4D"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="onRestore()" />
+            </RadioGroup>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/holo_red_dark">
+                /</View>
+        </LinearLayout>
+
+
+        <!-- question no 5 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/q5num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Q5 " />
+
+                <TextView
+                    android:id="@+id/q5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/q5num"
+                    android:text="Which configuration file holds the permission to use the internet?" />
+            </RelativeLayout>
+
+            <RadioGroup
+                android:id="@+id/basics_Q5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 >
+
+
+                <RadioButton
+                    android:id="@+id/basics_Q5A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="Layout file" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q5B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="Property file" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q5C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="Java source file" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q5D"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="Manifest file" />
+            </RadioGroup>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/holo_red_dark">
+                /</View>
+        </LinearLayout>
+
+
+        <!-- question no 6 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/q6num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Q6 " />
+
+                <TextView
+                    android:id="@+id/q6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/q6num"
+                    android:text="What is the name of the folder that contains the R.java file ?" />
+            </RelativeLayout>
+
+            <RadioGroup
+                android:id="@+id/basics_Q6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 >
+
+
+                <RadioButton
+                    android:id="@+id/basics_Q6A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="src" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q6B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="res" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q6C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="bin" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q6D"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="gen" />
+            </RadioGroup>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/holo_red_dark">
+                /</View>
+        </LinearLayout>
+
+
+        <!-- question no 7 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/q7num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Q7 " />
+
+                <TextView
+                    android:id="@+id/q7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/q7num"
+                    android:text="What is the parent class of all Activity widgets ?" />
+            </RelativeLayout>
+
+            <RadioGroup
+                android:id="@+id/basics_Q7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 >
+
+
+                <RadioButton
+                    android:id="@+id/basics_Q7A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="ViewGroup" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q7B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="Layout" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q7C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="View" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q7D"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="Widget" />
+            </RadioGroup>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/holo_red_dark">
+                /</View>
+        </LinearLayout>
+
+
+        <!-- question no 8 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/q8num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Q8 " />
+
+                <TextView
+                    android:id="@+id/q8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/q8num"
+                    android:text="Which file specifies the minimum required Android SDK version your application supports ?" />
+            </RelativeLayout>
+
+            <RadioGroup
+                android:id="@+id/basics_Q8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 >
+
+
+                <RadioButton
+                    android:id="@+id/basics_Q8A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="main.xml" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q8B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="R.java" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q8C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="strings.xml" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q8D"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="AndroidManifest.xml" />
+            </RadioGroup>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/holo_red_dark">
+                /</View>
+        </LinearLayout>
+
+
+        <!-- question no 9 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/q9num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Q9 " />
+
+                <TextView
+                    android:id="@+id/q9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/q9num"
+                    android:text="Which is not included in the Android application framework ?" />
+            </RelativeLayout>
+
+            <RadioGroup
+                android:id="@+id/basics_Q9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 >
+
+
+                <RadioButton
+                    android:id="@+id/basics_Q9A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="WindowManager" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q9B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="NotificationManager" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q9C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="DialerManager" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q9D"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="PackageManager" />
+            </RadioGroup>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/holo_red_dark">
+                /</View>
+        </LinearLayout>
+
+
+        <!-- question no 10 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/q10num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Q10 " />
+
+                <TextView
+                    android:id="@+id/q10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/q10num"
+                    android:text="Which of the following is a Java call-back method invoked when a view is clicked?" />
+            </RelativeLayout>
+
+            <RadioGroup
+                android:id="@+id/basics_Q10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 >
+
+
+                <RadioButton
+                    android:id="@+id/basics_Q10A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="Detector" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q10B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="OnTapListener" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q10C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="OnClickDetector" />
+
+                <RadioButton
+                    android:id="@+id/basics_Q10D"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="OnClickListener" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/submit_level1"
+            android:layout_margin="20dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
